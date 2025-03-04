@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script
+src='//in.fw-cdn.com/32073408/1105213.js'
+chat='true'>
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Form</title>
+</head>
+<body>
+    <h2>Contact Form</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="mobile">Mobile Number:</label><br>
+        <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
